@@ -6,9 +6,10 @@ function AppNavbar() {
     <BootstrapNavbar bg="danger" variant="dark" expand="lg">
       <Container>
         <BootstrapNavbar.Brand href="/">BloodHeroes</BootstrapNavbar.Brand>
-         <div className="text-center mb-4 p-3 rounded border border-2 border-danger bg-light">
+         <div>
            <img
              src="/icon.jpg"
+             class="rounded"
              alt="Blood Donation App"
              style={{ height: "80px" }}
              className="mb-3"
