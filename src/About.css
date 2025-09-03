@@ -1,0 +1,29 @@
+.about-page {
+  min-height: 100vh;
+}
+
+.step-number {
+  width: 50px;
+  height: 50px;
+  background-color: #dc3545;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}

@@ -15,7 +15,7 @@ const sliderItems = [
     title: "Donate Blood, Save Lives",
     description: "Your single donation can help up to 3 people in need",
     buttonText: "Become a Donor",
-    buttonLink: "/register"
+    buttonLink: "/Signup"
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const sliderItems = [
     title: "Emergency Blood Requests",
     description: "Find blood donors in your area quickly",
     buttonText: "Request Blood",
-    buttonLink: "/post-request"
+    buttonLink: "/RequestDashboard"
   },
   {
     id: 3,

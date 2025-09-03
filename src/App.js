@@ -10,6 +10,8 @@ import RequestList from "./components/RequestList";
 import RequestForm from "./components/RequestForm";
 import Homepage from "./components/Homepage";
 import RequesterDashboard from "./components/RequesterDashboard";
+import About from "./components/About";
+
 // In your App.js or routing file
 import RequestDetails from './components/RequestDetails';
 
@@ -37,6 +39,7 @@ function App() {
         <Route path="/post-request" element={<RequestForm />} />
         <Route path="/requests/:id" element={<RequestDetails />} />
          <Route path="/RequesterDashboard" element={<RequesterDashboard />} />
+         <Route path="/About" element={<About />} />
         {/* Add a catch-all route for 404 pages */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
